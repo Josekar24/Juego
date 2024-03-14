@@ -1,0 +1,148 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+footer {
+    position: fixed; /* Hacer el footer fijo */
+    bottom: 0; /* Fijar el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+/* Estilos para el título de Bingoseka */
+.bingo-title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de bingo */
+.bingo-card {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.bingo-card td {
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #333;
+}
+
+.bingo-card td:first-child {
+    border-left: none;
+}
+
+.bingo-card td:last-child {
+    border-right: none;
+}
+
+/* Estilos para las imágenes */
+.images-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images-container img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.bingo-card {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.bingo-card td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.bingo-card td:nth-of-type(1) {
+    color: blue; /* Color para la letra B */
+}
+.bingo-card td:nth-of-type(2) {
+    color: green; /* Color para la letra I */
+}
+.bingo-card td:nth-of-type(3) {
+    color: red; /* Color para la letra N */
+}
+.bingo-card td:nth-of-type(4) {
+    color: orange; /* Color para la letra G */
+}
+.bingo-card td:nth-of-type(5) {
+    color: purple; /* Color para la letra O */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.review {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    font-size: 24px;
+    color: #ffcc00; /* color amarillo */
+}
+
+.comment {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+

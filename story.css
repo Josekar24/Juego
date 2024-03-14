@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d7fcff; /* Color de fondo oscuro */
+    color: #000000; /* Color de texto blanco */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    color: #ffd700; /* Color dorado para el título */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* Estilos para el contenido */
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* Estilos para el contenido adicional */
+p1 {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Espacio entre las imágenes y los textos */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Margen inferior para dejar espacio para escribir */
+}
+
+.images-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Asegura que la imagen no tenga espacios no deseados debajo */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra suave */
+}
+
+.images-container p {
+    text-align: center; /* Centra el texto debajo de cada imagen */
+}
+
+/* Estilos para el barra de navegación */
+nav {
+    background-color: #1e272e; /* Fondo oscuro para la barra de navegación */
+    color: #ffd700; /* Texto dorado para la barra de navegación */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd700; /* Enlaces dorados */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed; /* Hacer el footer fijo */
+    bottom: 0; /* Fijar el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+/* Centrar el título de historia */
+h1 {
+    text-align: center;
+}

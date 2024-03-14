@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Color de fondo oscuro */
+    color: #000000; /* Color de texto */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para la barra de navegación */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Color del texto de los enlaces */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #010dbe8f; /* Color dorado para el título */
+    margin-top: 30px;
+}
+
+/* Estilos para el contenido */
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed; /* Hacer el footer fijo */
+    bottom: 0; /* Fijar el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+
+/* Estilos para la imagen */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 200px; /* Tamaño máximo de la imagen */
+    border: 20px solid green; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+}

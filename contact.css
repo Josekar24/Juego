@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Color de fondo */
+    color: #333; /* Color de texto */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para la barra de navegación */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333; /* Color del texto */
+    margin-top: 30px;
+}
+
+/* Estilos para el formulario */
+/* Estilos para el formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  #4086f0; ; /* Fondo blanco para el formulario */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px; /* Altura del área de texto */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; /* Fondo oscuro para el botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #ffd700; /* Cambio de color al pasar el ratón */
+}
+footer {
+    position: fixed; /* Hacer el footer fijo */
+    bottom: 0; /* Fijar el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+
+
